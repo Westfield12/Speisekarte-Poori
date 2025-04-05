@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Poori Speisekarte</title>
-    <style>
-      body {
-        margin: 0;
-        background-color: #000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-      }
-      img {
-        max-width: 100%;
-        max-height: 100%;
-      }
-    </style>
-  </head>
-  <body>
-    <img src="Poori Indian Food Center Monitor.jpg" alt="Speisekarte" />
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <title>Speisekarte Hochformat</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      width: 100vw;
+      overflow: hidden;
+      background-color: #000;
+    }
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: rotate(90deg) translate(-50%, -50%);
+      transform-origin: center center;
+      width: 1920px;
+      height: 1080px;
+    }
+  </style>
+</head>
+<body>
+  <img src="Poori Indian Food Center Monitor.jpg" alt="Speisekarte" />
+</body>
 </html>
+
 
